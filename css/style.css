@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to bottom, #f5f5dc, #ffffff); /* бежево-белый фон */
+    background-color: #ea8d5b;
     padding: 40px 0 0;
     font-family: sans-serif;
   }
@@ -24,8 +24,8 @@ body {
   }
   
   caption {
-    padding: 15px;
-    font-size: 16px;
+    padding: 25px;
+    font-size: 18px;
     font-weight: 600;
     text-transform: uppercase;
     color: #8b7355;
@@ -50,10 +50,10 @@ body {
   }
   
   .menu a {
-    margin: 0 15px;
-    padding: 8px 12px;
+    margin: 0 20px;
+    padding: 16px 20px;
     color: #5c4033;
-    font-size: 20px;
+    font-size: 25px;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
