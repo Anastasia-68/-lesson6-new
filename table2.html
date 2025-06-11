@@ -8,38 +8,40 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    
     <div class="container">
-        <table class="w-90">
-        <caption>Таблица 2</caption>
-           <tr>
-                <td class="w-40" colspan="2">1-2</td>
-                <td class="w-60">3 <span>Ширина 60%</span></td>
+        <table style="width: 90%;">
+            <caption>Таблица 2</caption>
+            <tr>
+                <td colspan="2">1-2</td>
+                <td style="width: 60%;">3 <br><small>Ширина 60%</small></td>
             </tr>
             <tr>
-                <td class="w-28">4 Ширина 28%</td>
+                <td style="width: 28%;">4 <br><small>Ширина 28%</small></td>
                 <td colspan="2" rowspan="2">
-        <table class="w-80">
-        <caption>Вложенная таблица</caption>
-            <tr>
-                <td>1</td>
-                <td rowspan="3">2-5-8 Ширина 33%</td>
-                <td class="h-200" rowspan="2">3-6 Высота 200px</td>
-            </tr>
-            <tr>
-                <td class="h-200" rowspan="2">4-7 Высота 200px</td>
-            </tr>
-            <tr>
-                <td>9</td>
-            </tr>
-            </table>
-                <span>Ширина вложенной таблицы = 80%</span>
+                    <table style="width: 80%; margin: auto;">
+                        <caption>Вложенная таблица</caption>
+                        <tr>
+                            <td>1</td>
+                            <td rowspan="3" style="width: 33%;">2-5-8 <br><small>Ширина 33%</small></td>
+                            <td class="h-200" rowspan="2">3-6 <br><small>Высота 200px</small></td>
+                        </tr>
+                        <tr>
+                            <td class="h-200" rowspan="2">4-7 <br><small>Высота 200px</small></td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                        </tr>
+                    </table>
+                    <p>Ширина вложенной таблицы = 80%</p>
                 </td>
             </tr>
             <tr>
-                <td class="w-28">7</td>
+                <td>7</td>
             </tr>
-            </table>
-               <span>Ширина родительской таблицы = 90%</span>
+        </table>
+        <p>Ширина родительской таблицы = 90%</p>
     </div>
+
 </body>
 </html>
